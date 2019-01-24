@@ -14,4 +14,4 @@ debug : $(filename).bin
 	qemu-system-i386 $(debug) $(filename).bin
 
 gdb :
-	gdb $(gdbflags) gdbcommands.txt
+	gdb $(gdbflags) ../gdbcommands.txt
