@@ -1,5 +1,5 @@
 
-filename = write
+filename = read
 flags = -f bin -o
 gdbflags = -q -x
 debug = -s -S

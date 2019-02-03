@@ -2,7 +2,7 @@
 
 cd ~/
 git clone https://github.com/qemu/qemu
-cd ~/qemu/qemu
+cd ~/qemu
 mkdir build
 cd build
 ../configure --target-list=i386-softmmu
